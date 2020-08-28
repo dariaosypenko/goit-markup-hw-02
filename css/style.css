@@ -5,5 +5,95 @@
 }
 body {
     background: white;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+.part-logo {
+    color: #2196F3;
+
+}
+.studio {
+    color: #2196F3;
+    text-decoration: none;
+}
+.p-o {
+    color: #2196F3;
+    text-decoration: none;
+}
+.em-one {
+    color: #2196F3;
+    text-decoration: none;
+}
+.ph-em {
+    color: #757575;
+    text-decoration: none;
+}
+.add-s {
+    color: #ffffff;
+}
+.ph-em-two {
+    color: rgba(255, 255, 255, 0.6);
+}
+button {
+    font-family: inherit;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.small-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.small-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+.photo-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.photo-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.pic-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.pic-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+.list {
+    list-style: none;
 }
