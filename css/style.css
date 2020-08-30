@@ -10,14 +10,13 @@ body {
 }
 .logo {
     font-family: Raleway, sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 26px;
     line-height: 1.8;
     text-decoration: none;
 }
 .part-logo {
     color: #2196F3;
-
 }
 .studio {
     color: #2196F3;
@@ -96,4 +95,37 @@ h2 {
 }
 .list {
     list-style: none;
+}
+.studio-ref {
+    text-decoration: none;
+}
+.portfolio-ref {
+    text-decoration: none;
+}
+.st-ref {
+    text-decoration: none;
+}
+.port-ref {
+    text-decoration: none;
+}
+.studio:hover,:focus {
+    color: red;
+}
+.port:hover,:focus {
+    color: red;
+}
+.cont:hover,:focus {
+    color: red;
+}
+.em-one:hover,:focus {
+    color: red;
+}
+.ph-em:hover,:focus {
+    color: red;
+}
+.st-o:hover,:focus {
+    color: red;
+}
+.p-o:hover,focus {
+    color: red;
 }
