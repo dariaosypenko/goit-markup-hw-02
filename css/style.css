@@ -22,12 +22,23 @@ body {
     color: #2196F3;
     text-decoration: none;
 }
+.port {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 .p-o {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #2196F3;
     text-decoration: none;
 }
 .em-one {
-    color: #2196F3;
+    color:#757575;
     text-decoration: none;
 }
 .ph-em {
@@ -118,7 +129,7 @@ h2 {
     color: red;
 }
 .em-one:hover,:focus {
-    color: red;
+    color:#2196F3;
 }
 .ph-em:hover,:focus {
     color: red;
@@ -126,6 +137,9 @@ h2 {
 .st-o:hover,:focus {
     color: red;
 }
-.p-o:hover,focus {
+.p-o:hover,:focus {
     color: red;
+}
+button:hover,:focus {
+    color: #2196F3;
 }
