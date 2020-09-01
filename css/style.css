@@ -3,13 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+
+
 body {
     background: white;
-    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    font-family: "Roboto", sans-serif;
 }
+/* <===========HEADER=======> */
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family: var(--secondary-font);
     font-weight: 400;
     font-size: 26px;
     line-height: 1.8;
@@ -18,39 +25,45 @@ body {
 .part-logo {
     color: #2196F3;
 }
-.studio {
-    color: #2196F3;
-    text-decoration: none;
-}
-.port {
+.navigation-list,
+.header-address {
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.142;
     letter-spacing: 0.02em;
+}
+.link {
+    text-decoration: none;
+}
+.studio-main,
+.portfolio-main,
+.contacts {
     color: #212121;
 }
-.p-o {
-    font-weight: 500;
+.e-mail,
+.phone {
+    text-decoration: none;
+    color:#757575 ;
+}
+.navigation-list:hover,
+.navigation-list:focus,
+.header-address:hover, 
+.header-address:focus {
+    color:#2196F3 ;
+}
+
+/* <===========FOOTER=======> */
+.address-footer {
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-    text-decoration: none;
-}
-.em-one {
-    color:#757575;
-    text-decoration: none;
-}
-.ph-em {
-    color: #757575;
-    text-decoration: none;
-}
-.add-s {
-    color: #ffffff;
-}
-.ph-em-two {
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+
 }
+
 button {
     font-family: inherit;
 }
@@ -107,38 +120,7 @@ h2 {
 .list {
     list-style: none;
 }
-.studio-ref {
-    text-decoration: none;
-}
-.portfolio-ref {
-    text-decoration: none;
-}
-.st-ref {
-    text-decoration: none;
-}
-.port-ref {
-    text-decoration: none;
-}
-.studio:hover,:focus {
-    color: red;
-}
-.port:hover,:focus {
-    color: red;
-}
-.cont:hover,:focus {
-    color: red;
-}
-.em-one:hover,:focus {
-    color:#2196F3;
-}
-.ph-em:hover,:focus {
-    color: red;
-}
-.st-o:hover,:focus {
-    color: red;
-}
-.p-o:hover,:focus {
-    color: red;
+
 }
 button:hover,:focus {
     color: #2196F3;
